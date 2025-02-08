@@ -21,6 +21,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALEXANDRITE.get());
                         output.accept(ModItems.RAW_ALEXANDRITE.get());
 
+                        output.accept(ModItems.CHISEL.get());
+
+                        output.accept(ModItems.KOHLRABI.get());
+
+                        output.accept(ModItems.AURORA_ASHES.get());
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexandrite_blocks_tab",
@@ -30,6 +36,11 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
                         output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+
+                        output.accept(ModBlocks.ALEXANDRITE_ORE.get());
+                        output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
+
+                        output.accept(ModBlocks.MAGIC_BLOCK.get());
 
                     }).build());
 
